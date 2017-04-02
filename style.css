@@ -6,6 +6,7 @@ body{
 
 
 h1{
+  font-family: serif;
   font-size: 80px;
   font-weight: 500;
   line-height: 1;
@@ -52,7 +53,7 @@ header nav a{
   color:#565656;
 
 }
- .card-grid>li {
+ .card-grid li {
    color: white;
 
    font-size: 30px;
@@ -64,7 +65,7 @@ header nav a{
     max-width: 400px;
     margin: 0 15px 20px;
 }
-.card-grid>li {
+.card-grid li {
     padding: 10px;
     /*background-color: #f4f7f8; */
     box-shadow: 3px 3px 0 3px #eaeff2;
@@ -72,11 +73,20 @@ header nav a{
 .list_of_websites
 {
   text-decoration: none;
-  color: #565656;
+  color: white;
 }
 footer
 {
   color: white;
   padding: 1em;
   padding-left: 20px;
+}
+.boxed
+{
+float: right;
+margin-left : 10px; 
+}
+a{
+  text-decoration: none;
+  color:#565656;
 }
