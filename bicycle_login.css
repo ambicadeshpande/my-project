@@ -1,0 +1,95 @@
+body
+{
+  background-color: black;
+}
+.image
+{
+  width: 73%;
+  position: relative;
+}
+
+h2{
+color: white;
+text-align: left;
+}
+li{
+  float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.container
+{
+  width: 22.3%;
+  border: 1.5px solid #333;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.fbutton
+{
+  color: white;
+  background-color: #3b5998;
+  padding: 10px 24px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+}
+.fbutton:hover
+{
+  background-color: #3e8e41
+}
+.gbutton
+{
+  color: white;
+  background-color: #d34836;
+  padding: 10px 24px;
+  border:  none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.gbutton:hover
+{
+  background-color: #3e8e41
+}
+.lbutton
+{
+  color: white;
+  background-color: #4caf50;
+  padding: 10px 24px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.lbutton:hover
+{
+  background-color: #3e8e41
+}
+.lbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+.wrap {
+  display: inline-flex;
+}
