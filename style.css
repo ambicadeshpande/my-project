@@ -2,9 +2,6 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-
-
 h1{
   font-family: serif;
   font-size: 80px;
@@ -14,8 +11,6 @@ h1{
   padding-bottom: 15px
   margin-top: 5px;
   margin-bottom: 9px;
-
-
 }
 .container
 {
@@ -57,13 +52,13 @@ header nav a{
    color: white;
 
    font-size: 30px;
-   text-align: center;
+   padding-left: 10px;
    background-color: #F19F4D;
    width: 400px;
    padding: 25px;
    margin: 25px;
-    max-width: 400px;
-    margin: 0 15px 20px;
+   max-width: 400px;
+   margin: 0 15px 20px;
 }
 .card-grid li {
     padding: 10px;
@@ -84,9 +79,9 @@ footer
 .boxed
 {
 float: right;
-margin-left : 10px; 
+margin-left : 10px;
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;
   color:#565656;
 }
