@@ -1,0 +1,59 @@
+body
+{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+}
+.header{
+  opacity: 0.5;
+}
+.background_image{
+  position: relative;
+  height:900px;
+  width: 100%;
+  background-image: url("cycle.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+li{
+  float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.container
+{
+  color: white;
+  width:350px;
+  height: 500px;
+  position: absolute;
+  top: 90px;
+  right: 10px;
+  border: 2px solid #333;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-right: 50px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+
+}
