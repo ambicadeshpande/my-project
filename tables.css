@@ -1,5 +1,47 @@
-table th td{
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+table, th , td{
   border: 1px solid black;
   border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+table
+{
   width: 100%;
+}
+th , td
+{
+  padding-left: 25px;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+thead tr th
+{
+  text-align:left;
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+table#t_2 tbody tr:nth-child(even)
+{
+  background-color: #fff;
+}
+table#t_2 tbody tr:nth-child(odd)
+{
+  background-color: #eee;
+}
+table#t_3 tbody tr:hover
+{
+  background-color: #eee;
+}
+table#t_4 thead tr th
+{
+  border-top: none;
+  color: teal;
 }
