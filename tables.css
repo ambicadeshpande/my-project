@@ -27,10 +27,14 @@ h2{
   font-size: 20px;
   color: #2F4F4F;
 }
+label{
+  padding-left: 10px;
+}
 thead tr th
 {
   text-align:left;
   padding-left: 25px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
