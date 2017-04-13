@@ -1,7 +1,8 @@
+y = -1;
 function Change_color() {
-  var arrayof_colors = ["blue","green","red","orange","yellow","white","teal","orange","brown","purple","pink","gray"];
-  var x = Math.floor((Math.random() * 10) + 1);
-  y = -1;
+  var arrayof_colors = ["blue","green","red","orange","pink","white","teal","orange","brown","purple"];
+  var x = Math.floor((Math.random() * 10) );
+
   if (y == x) {
     Change_color();
   }
