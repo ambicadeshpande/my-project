@@ -47,10 +47,12 @@ i
   margin-top: 30px;
   margin-left: 30px;
   width: 650px;
-  height: 1300px;
+  height: 1400px;
   padding: 30px;
   text-align: left;
   font-size: 25px;
+  margin-bottom: 20px;
+
 
 }
 .right_col{
@@ -63,7 +65,7 @@ i
 }
 .box_1{
   box-sizing: border-box;
-  border: 1px solid #565656;
+  box-shadow: 3px 3px 3px 3px #a8a8a8;
   width: 350px;
   height: 200px;
   padding: 20px;
@@ -75,7 +77,8 @@ i
 }
 .box_2{
   box-sizing: border-box;
-  border: 1px solid #565656;
+
+  box-shadow: 3px 3px 3px 3px #a8a8a8;
   width: 350px;
   height: 200px;
   position: absolute;
@@ -87,7 +90,8 @@ i
 }
 .box_3{
   box-sizing: border-box;
-  border: 1px solid #565656;
+
+  box-shadow: 3px 3px 3px 3px #a8a8a8;
   width: 350px;
   height: 200px;
   position: absolute;
