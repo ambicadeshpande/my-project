@@ -1,27 +1,33 @@
 body{
-  background-color: #d3d3d3;
+  background-color: #f1f1f1;
   line-height: 1.428;
   color: #373737;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
 
 }
 h1{
+  position: absolute;
   margin: 0;
   padding: 0;
   padding-left: 40px;
   font-size: 25px;
   font-weight:normal;
-    color: white;
-    line-height: 50px;
-    height: 80px;
-
+  color: white;
+  line-height: 50px;
+  height: 80px;
+  left: 20px;
 }
-.header{
-  position: absolute;
+.header a{
+  position: relative;
+  display: inline-block;
   left: 960px;
   top:0;
   line-height: 50px;
   height: 80px;
+}
+.side_bar ul hr{
+  border: 0.5px solid #bdbdbd;
+  display: block;
 }
 .top_bar{
 
@@ -35,33 +41,87 @@ h1{
   box-sizing: border-box;
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
   margin: 0px;
+
+}
+img{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+
 }
 a{
   text-decoration: none;
   padding: 5px;
-    color: #eeeeee;
+  color: white;
+
+}
+a li{
+  color: black;
+  display: block;
 
 }
 .side_bar{
   position: fixed;
-  top: 65px;
+  top: 62px;
   left: 0;
   width: 20%;
   height: 800px;
-  background-color: #cecece;
+  background-color: #d3d3d3;
 }
 #search_bar
 {
   position: absolute;
   height: 40px;
-  width: 50%;
-  left: 200px;
+  width: 40%;
+  left: 320px;
   top: 10px;
   background-color: #5c94f2;
   border-radius: 4px;
   border: none;
-  
+
   padding-left: 15px;
+}
+h5{
+  color: #545454;
+  font-weight: lighter;
+  position: relative;
+  top: 70px;
+  left: 330px;
+
+}
+.container{
+  position: relative;
+
+}
+.content{
+  background-color: #fbfcfc;
+  position: absolute;
+  height: 1000px;
+  width:65% ;
+  left: 320px;
+  top: 80px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+#username{
+  padding-left: 50px;
+  position: absolute;
+  color: #545454;
+  font-weight: normal;
+}
+#subject{
+  position: relative;
+  left: 250px;
+  color: #545454;
+  font-weight: normal;
+}
+#message{
+  position: relative;
+  left: 350px;
+  color: #696969;
 }
 #search_bar::placeholder{
   color: white;
@@ -73,4 +133,15 @@ a{
 }
 #search_bar:focus::placeholder{
   color: gray;
+}
+.em_1 {
+  display: inline-flex;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.details{
+  padding-top: 10px;
+}
+.details:hover{
+  background-color: #eee;
 }
